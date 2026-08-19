@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>og-image source — 1200×630</title>
+<!--
+  SOURCE for docs/og-image.png. Render, don't redraw:
+
+    node assets/social/render.mjs
+
+  Spec this was built to: briefs/og-images/2026-08-19-your-side-of-the-table-og-image.md
+  (in the specialist-builder sandbox). Palette lifted from docs/index.html light tokens;
+  ground is --table, the dark band the live hero uses. Wording changes are a re-render.
+-->
+<style>
+  :root{
+    --table:#1f2734; --table-ink:#e8e3d8; --table-mute:#9aa5b4;
+    --ink:#191c21; --rule:#ded7c8;
+    --stop:#a8442a; --stop-wash:#f6e7e1;
+    --go:#2f6b4f;   --go-wash:#e2ece5;
+    --strike:rgba(168,68,42,.6);
+    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+    --serif:ui-serif,Georgia,"Iowan Old Style","Times New Roman",serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1200px;height:630px}
+  body{background:var(--table);color:var(--table-ink);
+       font-family:var(--serif);-webkit-font-smoothing:antialiased}
+  .frame{width:1200px;height:630px;padding:62px 64px;display:flex;flex-direction:column}
+
+  .kicker{font-family:var(--mono);font-size:15px;letter-spacing:.155em;text-transform:uppercase;
+          color:var(--table-mute)}
+  h1{font-size:60px;font-weight:600;letter-spacing:-.021em;line-height:1.05;
+     color:var(--table-ink);margin-top:20px}
+
+  .split{display:grid;grid-template-columns:1fr 1fr;margin-top:38px;
+         border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+  .col{padding:22px 26px 24px}
+  .go{background:var(--go-wash);border-right:1px solid var(--rule)}
+  .no{background:var(--stop-wash)}
+  .lbl{font-family:var(--mono);font-size:14px;letter-spacing:.12em;text-transform:uppercase;
+       margin-bottom:18px}
+  .go .lbl{color:var(--go)}
+  .no .lbl{color:var(--stop)}
+  .q{font-size:23px;line-height:1.34;color:var(--ink);padding:15px 0;
+     border-top:1px solid var(--rule)}
+  .q:first-of-type{border-top:0;padding-top:0}
+  .no .q{text-decoration:line-through;text-decoration-color:var(--strike);
+         text-decoration-thickness:2px}
+
+  .foot{margin-top:auto;font-size:22px;line-height:1.4;color:var(--table-mute);max-width:44ch}
+</style>
+</head>
+<body>
+<div class="frame">
+
+  <div class="kicker">Residential real estate &middot; agent-side</div>
+  <h1>Your Side of the Table</h1>
+
+  <div class="split">
+    <div class="col go">
+      <div class="lbl">Yours to say</div>
+      <div class="q">&ldquo;My fee is 2.5%.&rdquo;</div>
+      <div class="q">&ldquo;I&rsquo;m proposing 30 days.&rdquo;</div>
+    </div>
+    <div class="col no">
+      <div class="lbl">Not yours &mdash; ever</div>
+      <div class="q">&ldquo;The agreement says you owe 2.5% if&hellip;&rdquo;</div>
+      <div class="q">&ldquo;A 30-day term means you&rsquo;re locked in&hellip;&rdquo;</div>
+    </div>
+  </div>
+
+  <div class="foot">Prep for the five conversations the 2024 practice changes created.</div>
+
+</div>
+</body>
+</html>
