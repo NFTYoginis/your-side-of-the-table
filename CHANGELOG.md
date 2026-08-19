@@ -34,11 +34,15 @@ First release.
 - Governance: [`DISCLAIMER.md`](DISCLAIMER.md), [`SECURITY.md`](SECURITY.md),
   [`CONTRIBUTING.md`](CONTRIBUTING.md), [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md), MIT
   [`LICENSE`](LICENSE)
+- **Social image** — `docs/og-image.png` (1200 × 630), rendered from
+  [`assets/social/og-1200x630.html`](assets/social/og-1200x630.html). Wording changes are a re-render,
+  not a redraw.
+- **[`docs/feature-page-source.md`](docs/feature-page-source.md)** — source kit for anyone writing
+  about this build elsewhere: positioning lifted verbatim, the five jobs in plain language, the
+  constraint story, and an explicit list of claims the repo cannot back.
 
 ### Known open items
 
-- **`docs/og-image.png` not yet present.** OG meta tags ship pointing at it; social shares fall back to
-  text-only previews until the file lands. Deliberate — meta tags first, image when it exists.
 - **The proof block on the landing page is a placeholder.** No testimonials, no metrics, no adoption
   numbers, and there won't be any until real ones exist with permission to use them.
 - **A commission-rate disagreement is recorded, not resolved.**
