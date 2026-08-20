@@ -7,6 +7,37 @@ source refreshes.
 
 ---
 
+## [1.1.1] — 2026-08-20
+
+### Changed
+
+- **The footer byline is now a link.** It has been plain text since the first commit; it now points at
+  `https://thequietai.com/#contact`, so a reader who wants one of these for their own trade has a route
+  instead of a dead end. No script, no embed, no third-party asset, and no text added around it — a
+  static anchor on the words that were already there.
+- **The brand spelling is corrected on the same line, and in two more.** The all-caps form of the name
+  was retired by the operator on 2026-08-20; **The Quiet Ai** is the published form. Corrected in
+  [`LICENSE`](LICENSE), [`README.md`](README.md), and the landing-page footer. The footer instance is
+  the same line as the link above — linking it without correcting it would have made a retired brand
+  form the most prominent attribution on the page.
+- **[`VERIFY.md`](VERIFY.md) claim 7b now promises less than it did — a reduction, not a
+  clarification.** It used to say every URL on the page was this repo's own. That is no longer true and
+  the claim no longer says it: it now permits exactly one URL that isn't ours and names it. Nothing
+  about the original claim was ever ambiguous, so calling this a clarification would be a lie about
+  what changed, and this file is where that lie would live. **Claim 7 — the page fetches nothing
+  external — did not move**, because a link is not a fetch: nothing on the page contacts any site
+  unless clicked.
+- **The landing page's own verification table** listed *"fetches nothing external"* against the
+  URL-listing command — the wording of claim 7 paired with the command for 7b. Split into the two rows
+  it always was, each with its own command. This was wrong from first publication; the byline link is
+  what made it visible, because that command's output now includes a URL the row's label denied.
+
+*Both changes ruled by the operator. The 7b wording was gated before publication. The link exists
+because a public build page with no route back to its author is the same defect this repo fixed in its
+own marketing kit at 1.1.0 — a reader given a path they cannot open.*
+
+---
+
 ## [1.1.0] — 2026-08-20
 
 ### Added

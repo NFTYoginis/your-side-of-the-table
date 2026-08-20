@@ -154,4 +154,4 @@ shipped `[PLACEHOLDER]` versions are the ones meant to be public.
 MIT licensed — [`LICENSE`](LICENSE). Contributions welcome, especially objections that actually
 happened to you: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Built by **The Quiet AI**.
+Built by **The Quiet Ai**.

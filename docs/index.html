@@ -424,7 +424,8 @@ python3 reference/checks/practice-state.py</pre>
           <tr><td>No output is addressed to a client</td><td><code>boundary-checks.py</code> — CHECK A</td></tr>
           <tr><td>Every skill declares where it stops, with a quoted refusal</td><td><code>boundary-checks.py</code> — CHECK B</td></tr>
           <tr><td>No skill declares a listing-data input</td><td><code>boundary-checks.py</code> — CHECK C</td></tr>
-          <tr><td>This page fetches nothing external</td><td><code>grep -oE 'https?://[^"]+' docs/index.html | sort -u</code></td></tr>
+          <tr><td>This page fetches nothing external</td><td><code>grep -nE '&lt;(link|script|img|iframe|source)' docs/index.html</code> — prints nothing</td></tr>
+          <tr><td>…and every URL on it is this repo's own, plus one link to the builder's own site</td><td><code>grep -oE 'https?://[^"]+' docs/index.html | sort -u</code> — repo URLs, plus exactly one: the footer byline</td></tr>
           <tr><td>The checks can actually fail</td><td>the four-step break procedure in <code>VERIFY.md</code></td></tr>
         </tbody>
       </table>
@@ -629,7 +630,8 @@ reference/objection-library.md</pre>
         for licensed agents, and it refuses to interpret, draft, or alter contract language by design.
         Your state real-estate commission and your broker outrank every file in this repository. For
         what a document means or does, consult a real-estate attorney in your state.</p>
-      <p style="margin:0">MIT licensed. Built by <strong>The Quiet AI</strong>.</p>
+      <p style="margin:0">MIT licensed. Built by
+        <a href="https://thequietai.com/#contact"><strong>The Quiet Ai</strong></a>.</p>
     </div>
   </div>
 </footer>

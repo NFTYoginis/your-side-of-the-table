@@ -21,10 +21,23 @@ be unflattering, but because none of them would be verifiable by you.
 | 5 | No skill declares a listing-data input | same command | CHECK C all `ok` |
 | 6 | The checks can actually fail | the procedure below | all four break as described |
 | 7 | The landing page fetches nothing external | `grep -nE '<(link\|script\|img\|iframe\|source)' docs/index.html` | prints nothing — no external stylesheet, script, font, or image |
-| 7b | …and every URL on it is this repo's own | `grep -oE 'https?://[^"'"'"' )]+' docs/index.html \| sort -u` | only `github.com/NFTYoginis/your-side-of-the-table` and `nftyoginis.github.io/your-side-of-the-table` URLs |
+| 7b | …and every URL on it is this repo's own, plus one link to the builder's own site | `grep -oE 'https?://[^"'"'"' )]+' docs/index.html \| sort -u` | only `github.com/NFTYoginis/your-side-of-the-table` and `nftyoginis.github.io/your-side-of-the-table` URLs, plus exactly one `https://thequietai.com/#contact` — the footer byline. No trackers, no analytics, no third-party services. |
 | 8 | Your own positions are never invented | `python3 reference/checks/practice-state.py` | lists which files are blank and which jobs go framework-only |
 | 9 | Every domain claim carries a source link | `grep -c 'https://' reference/what-changed-2024.md reference/the-upl-line.md reference/compensation-landscape.md` | each file returns a non-zero count |
 | 10 | Every skill routes state questions to your own counsel *without* making the refusal conditional on the answer | `grep -l "It does not change what this file produces" skills/*.md \| wc -l` | prints `5` — one per skill |
+
+**On 7 and 7b, read together.** 7 is the promise that matters and it is unamended: the page requests
+nothing from anyone — no stylesheet, script, font, image, tracker, or analytics.
+
+**7b is a smaller claim than it was.** It used to promise that every URL on the page was this repo's
+own. It no longer promises that. On 2026-08-20 the footer byline — plain text since the first commit —
+became a link, and 7b now permits one URL that isn't ours and names it.
+That is a reduction in what this repo claims, not a clarification of what it always meant, and
+[`CHANGELOG.md`](CHANGELOG.md) 1.1.1 records it as one. A claim that can be quietly relaxed is not a
+claim.
+
+**A link is not a fetch.** Nothing on this page contacts that site, or any site, unless you click it.
+That is why 7 did not have to move to make room for 7b.
 
 Run 2, 3, 4, 5 and 8 in one go:
 
