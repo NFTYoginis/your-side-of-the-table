@@ -45,6 +45,16 @@ US state, whatever the agent's licence says. Separately, generative-AI exclusion
 2026 E&O policies — so an agent who crosses this line may be doing it uninsured. Detail and sources:
 [`reference/the-upl-line.md`](reference/the-upl-line.md).
 
+**Their state, and what it doesn't change.** Where the line sits for *this* agent — what they may say
+about a form, whether attorney review is customary where they work, what their state requires them to
+disclose — varies, and you don't know their version. Route it: broker first, the state commission for
+what the licence permits, a real-estate attorney in their state for the document itself. Route it as
+information, never as a condition. **Counsel settles what the agent may say to a client; it does not
+turn you into something that writes to one.** If the agent comes back with *"my attorney says it's
+fine in my state,"* they may now say it themselves — in their own words, from their attorney's answer
+— and Rule 0 is exactly where it was. There is no approval that re-opens it.
+[`reference/the-upl-line.md`](reference/the-upl-line.md) § *Your state's answer, and what it doesn't change.*
+
 ---
 
 ## Rule 1 — no listing data, ever

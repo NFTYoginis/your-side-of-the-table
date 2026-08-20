@@ -7,6 +7,39 @@ source refreshes.
 
 ---
 
+## [1.1.0] — 2026-08-20
+
+### Added
+
+- **State routing on the boundary** — [`reference/the-upl-line.md`](reference/the-upl-line.md)
+  § *Your state's answer, and what it doesn't change*. Names the three things that genuinely vary —
+  what you may say about a form, whether attorney review is customary, what you must disclose — and
+  routes each to your broker, your state commission, and an attorney in your state. **It asserts no
+  state's rule and adds no state-by-state content.**
+- **The condition on that routing, stated everywhere it appears.** Counsel settles what *you* may say
+  to a client; it does not change what these files produce. Both refusals are unconditional before and
+  after any legal advice. Surfaced in [`rules.md`](rules.md) § Rule 0, in all five skills'
+  *Where this stops*, in [`skills/README.md`](skills/README.md), [`README.md`](README.md),
+  [`DISCLAIMER.md`](DISCLAIMER.md), and as an FAQ entry on the landing page.
+- **[`VERIFY.md`](VERIFY.md) claim 10** — a grep proving all five skills carry the load-bearing
+  sentence, with a note saying what a presence check can't tell you.
+
+### Changed
+
+- **[`docs/feature-page-source.md`](docs/feature-page-source.md)** — states up front that finished copy
+  returns through the claims gate; § 3 and § 7 rule out "attorney-approved" and lawyer's-blessing
+  framings; the closing contact route is now the public repo and its issue tracker rather than a
+  sandbox path no reader can open.
+
+### Still open
+
+- **State variation is routed, not documented.** The strict UPL reading still applies everywhere and
+  no state's rule is recorded here. That was listed below as *unhandled* at 1.0.0; routing is the part
+  this build can honestly do. Contributions documenting material state differences remain welcome, with
+  a citation — [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+---
+
 ## [1.0.0] — 2026-08-19
 
 First release.

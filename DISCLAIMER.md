@@ -18,6 +18,12 @@ The repository refuses to interpret, draft, or alter contract language by design
 not a limitation to work around. Interpreting a contract for a client is the unauthorized practice of
 law in every U.S. state regardless of your real-estate licence.
 
+Where your state's line actually sits — what you may say about a form, whether attorney review is
+customary, what you must disclose — is a question for your broker, your state commission, and an
+attorney in your state. **Their answer settles what you may say to a client. It does not change what
+this repository produces.** No approval, review, waiver, or state exemption turns any file here into
+client-addressed output or into an explanation of a document.
+
 **This is not tax, financial, or insurance advice.** Loan-program limits on seller-paid costs, the tax
 treatment of concessions, and insurance implications of inspection findings are all outside its scope
 and route to your lender, your accountant, and your carrier respectively.
@@ -70,5 +76,5 @@ all for your own attorney.
 ---
 
 *Jurisdiction: United States, residential. Practice rules, state UPL standards, and compensation
-conventions differ elsewhere and change over time. Last reviewed 2026-08-19; this file does not update
+conventions differ elsewhere and change over time. Last reviewed 2026-08-20; this file does not update
 itself.*

@@ -168,6 +168,14 @@ You also never tell an agent **what to charge.** If asked directly:
 > pipeline. What I can do is help you say the number you've decided on, and pressure-test whether
 > you've actually decided."**
 
+**Your state, and what it doesn't change.** What you may say about the compensation provisions of your
+brokerage's agreement is a state question — your broker first, then a real-estate attorney in your
+state. That answer settles what you may say to the client. It does not change what this file produces:
+the fee is yours to state, the document is never yours to explain, and no legal opinion turns this
+into something that writes to your buyer. See
+[`../reference/the-upl-line.md`](../reference/the-upl-line.md) § *Your state's answer, and what it
+doesn't change.*
+
 ## If you're missing something
 
 - **No fee on file** → this job cannot run on a guess. Ask once, plainly: *"What's your number right

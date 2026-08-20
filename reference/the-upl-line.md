@@ -104,10 +104,67 @@ at all.
 | Question type | Who answers it |
 |---|---|
 | What this form says, does, or obligates | A real-estate attorney in your state |
+| What you may *say* about a form while a client is reading it | A real-estate attorney in your state — this one varies, see below |
 | How to complete your brokerage's form correctly | Your broker; your brokerage's forms training |
 | What your state permits a licensee to do | Your state real-estate commission |
+| What you must disclose, to whom, and when | Your state commission first, then your broker |
+| Whether attorney review is customary where you work | Your broker and local practice — routine in some states, unusual in others |
 | Whether your policy covers AI-assisted work | Your E&O carrier |
 | What to charge, propose, recommend, or argue for | You — and this repo helps you say it |
+
+Those answers do not come out the same everywhere. The next section names the differences that
+actually change an agent's day — and, more importantly, what an answer from your own counsel does and
+does not change here.
+
+## Your state's answer, and what it doesn't change
+
+The rule at the top of this file holds everywhere in some form. Where it *sits* does not, and this
+repo does not know your version of any of the three below.
+
+**1. What you may say about a form.** The general shape — blank-filling in, drafting and interpreting
+out — is what the sources at the top of this file describe. Where the stop falls between those two is
+not uniform: how much you may *describe* before you are *explaining*, what a promulgated-form regime
+expects, what an attorney-state closing does to the question. That comes from your own state's rules
+and guidance, not from reasoning it out from the general case. This file's strict reading is
+deliberately inside the tightest version of it — a design choice, not a report on your state.
+
+**2. Whether attorney review is customary.** In some places an attorney on a residential contract is
+routine, and *"take it to your lawyer"* is the sentence a client expects to hear. In others it is
+unusual, and the same sentence lands as *something is wrong here*. The referral is the same either
+way. How you say it, and how much you prepare the client for it, is local knowledge you have and this
+repo doesn't.
+
+**3. What you must disclose, to whom, and when.** Agency disclosure, condition and material-fact
+disclosure, timing, and the form it takes are all state-specific. There is no disclosure content in
+this repo and there is not going to be any. If a job seems to want it, that is the moment to stop and
+ask rather than the moment to reason from the general case.
+
+**Who to ask, in order:** your **broker** first — it is a five-minute question, and brokerage policy is
+often stricter than state law and is the policy you are actually bound by. Your **state real-estate
+commission** for what your licence permits. A **real-estate attorney in your state** for anything about
+the document itself.
+
+### What that answer does not do
+
+> **Asking your lawyer settles what *you* may say to a client. It does not turn this into something
+> that writes to your client.**
+
+That distinction is the point of this section, so it is worth saying three ways:
+
+- **The two refusals are not caution awaiting clearance.** Nothing addressed to your client, and
+  nothing explaining what a document means — that is what this repo *is*, before and after any
+  conversation with counsel. An attorney's answer is not an input it takes.
+- **A permission your state grants you is still yours to exercise, in your own words.** If counsel
+  tells you your state allows something this repo refuses, they are right about your state and the
+  repo still refuses. Say it yourself, from their answer or your broker's training. Don't come back
+  here to have it drafted.
+- **"My attorney approved it" is not a route to client-addressed output.** No approval, review, waiver,
+  or state exemption produces a letter, an email, a one-pager, or a plain-English rewrite of a clause
+  from these files. There is no fuller version of this tool behind a gate that a legal opinion unlocks.
+
+If you finish this section thinking *so once my attorney signs off, I can hand the output to my buyer* —
+that is the misreading, and it is backwards. Counsel can widen what you may say. It does not widen what
+this repo will write.
 
 ## One more boundary, adjacent but different
 
@@ -118,5 +175,5 @@ lives in [`../skills/seller-compensation-decision.md`](../skills/seller-compensa
 
 ---
 
-*Last reviewed 2026-08-19. State-level rules change; this file does not update itself. Your broker and
+*Last reviewed 2026-08-20. State-level rules change; this file does not update itself. Your broker and
 your state commission outrank it.*

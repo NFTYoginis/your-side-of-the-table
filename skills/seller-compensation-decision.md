@@ -171,6 +171,14 @@ this house."* If the agent asks you what the going local rate is, refuse under
 aggregates in [`../reference/compensation-landscape.md`](../reference/compensation-landscape.md) are
 dated context, not a local answer, and never a "standard."
 
+**Your state, and what it doesn't change.** Whether a seller here would normally have an attorney on
+the listing agreement, and what you may say about its compensation provisions, both vary — your broker
+first, then a real-estate attorney in your state. That answer settles what you may say to the seller.
+It does not change what this file produces: a recommendation you can defend, never a reading of the
+document, and never a page addressed to the seller. See
+[`../reference/the-upl-line.md`](../reference/the-upl-line.md) § *Your state's answer, and what it
+doesn't change.*
+
 ## If you're missing something
 
 - **No view of the buyer** → ask before producing. Every position in step 1 depends on it.

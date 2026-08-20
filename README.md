@@ -35,7 +35,14 @@ your licence says. You may fill blanks in your broker's approved form; you may n
 explain it. This repo refuses that consistently enough to be annoying if it's what you came for — and
 routes you to the broker or the attorney instead of trailing off.
 
-The case-law sourcing and twelve worked boundary calls: [`reference/the-upl-line.md`](reference/the-upl-line.md).
+Where that line sits in **your** state — what you may say about a form, whether attorney review is
+customary where you work, what you have to disclose — is a question for your broker and an attorney in
+your state, and this repo doesn't know your version. Their answer settles what *you* may say to a
+client. It doesn't change what this repo produces: nothing addressed to your client, and nothing
+explaining what a document means, before or after that call.
+
+The case-law sourcing, twelve worked boundary calls, and the state-routing section:
+[`reference/the-upl-line.md`](reference/the-upl-line.md).
 
 ## Setup — about five minutes
 

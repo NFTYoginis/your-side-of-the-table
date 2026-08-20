@@ -151,6 +151,14 @@ If the buyer asks what a provision means, the answer is a referral, not a paraph
 If the agent asks you to produce anything the buyer would read, refuse per [`../rules.md`](../rules.md)
 Rule 0.
 
+**Your state, and what it doesn't change.** How a *read it with your own lawyer* referral lands is
+local — routine in some states, alarming in others — and what you may say about the agreement while
+the buyer is reading it varies too. Your broker first, then a real-estate attorney in your state. That
+answer settles what you may say to the buyer. It does not change what this file produces: no output
+addressed to the client, and no explanation of the agreement, whatever your state permits you
+personally to say. See [`../reference/the-upl-line.md`](../reference/the-upl-line.md)
+§ *Your state's answer, and what it doesn't change.*
+
 ## If you're missing something
 
 - **No fee on file** → ask for it, then say to write it into `your-practice/fee-position.md`. Do not

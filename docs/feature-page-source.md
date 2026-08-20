@@ -2,6 +2,10 @@
 
 **For marketing, writing a feature page on thequietai.com. This is source material, not a page.**
 
+> **Before this page publishes, the finished copy goes back through the claims gate.** Every line here
+> is traceable to a file in the repo. Anything added on the way to the site is not, and that is the
+> part that needs checking.
+
 Everything below is traceable to a file in this repo — the trace table at the bottom names which. If
 you need a claim that isn't here, it's probably in *§ What this repo cannot back*, which lists the
 things that would be false. Those aren't stylistic preferences; the repo declines them on its own
@@ -9,8 +13,9 @@ public page, so a site page that quietly adds them turns the repo into evidence 
 
 **Working rule:** anything on the site page should survive a reader clicking through to the repo.
 
-*Prepared 2026-08-19 by specialist-builder. This file lives in `docs/`, so GitHub Pages serves it
-publicly alongside the landing page — it's written to cost nothing if someone finds it.*
+*Prepared 2026-08-19 by specialist-builder; revised 2026-08-20 (claims-gate note above, public contact
+route in § 8, jurisdiction routing in § 3 and § 7). This file lives in `docs/`, so GitHub Pages serves
+it publicly alongside the landing page — it's written to cost nothing if someone finds it.*
 
 ---
 
@@ -134,6 +139,15 @@ addendum wording and for what the inspection contingency permits, gets both refu
 away with the full strategy sheet. The repo's own words for why: a refusal that leaves the agent with
 nothing is one they'd route around, to a general-purpose chatbot that will happily draft the addendum.
 
+**One thing the page must not turn into a permission slip.** Some of this genuinely varies by state —
+what an agent may say about a form, whether attorney review is customary where they work, what their
+state requires them to disclose. The repo names those three as varying and routes them to the agent's
+own broker and attorney; it does not answer them, and it carries no state-by-state content. The part
+worth getting right in copy: that routing changes **what the agent may say**, and changes **nothing
+about what the tool produces.** No attorney's answer unlocks client-addressed output. If a line on the
+page could be read as *get your lawyer's blessing and it'll write the letter*, it has inverted the
+build's one rule. The safe framing is the true one — it tells you where to ask, and it doesn't move.
+
 ### It runs on no licensed listing data
 
 No MLS, no IDX, no aggregator, no comps, no sold prices, no local rate statistics — and it won't
@@ -231,6 +245,7 @@ Marketing shouldn't have to take this kit's word for anything. Section by sectio
 | Job 5 — sorting the report, choosing the instrument | `skills/post-inspection-position.md` |
 | "Whose mouth, whose document"; the refusal language | `rules.md` § Rule 0 |
 | UPL framing, no-bright-line-test, the case-law sourcing | `reference/the-upl-line.md` (four linked state/association sources) |
+| What varies by state, who to ask, and that counsel doesn't re-open the refusal | `reference/the-upl-line.md` § *Your state's answer, and what it doesn't change*; `rules.md` § Rule 0; each skill's § *Where this stops* |
 | The worked refusal that still delivers | `examples.md` § Example 3 |
 | MLS licensing, six figures, IDX obligations | `reference/no-listing-data.md` |
 | "None of the five jobs ever needed it" | `reference/no-listing-data.md` § Why it doesn't matter here |
@@ -264,6 +279,12 @@ plain terms: it is not legal, tax, financial, or compliance advice, and a state 
 agent's broker outrank every file in it. The honest version — *"it refuses to cross the line and tells
 you where the line is"* — is both true and a better line anyway.
 
+**Anything implying a lawyer's sign-off changes it.** Also out: "attorney-approved," "lawyer-reviewed,"
+"cleared for your state," "compliant in all fifty states," and any variant of *check with your attorney
+and you're good to go.* The repo routes state questions to the agent's own counsel **because** it
+doesn't know any state's rule, and its two refusals don't move once counsel answers. Copy implying
+otherwise sells the opposite of what was built — and it's the one misread this file exists to prevent.
+
 **Testimonials or quotes from agents.** None exist. Not real, not composite, not "representative."
 
 **Efficacy claims about the language itself.** No "proven scripts," no "battle-tested objection
@@ -294,5 +315,15 @@ it doesn't ship.** If the page needs something in § 7, that's a real request �
 first, which usually means the build getting used by someone. Send it back rather than writing around
 it.
 
-Contact for anything factual: the build lives in the specialist-builder sandbox at
-`builds/your-side-of-the-table/`, and every claim above has a file behind it in § 6.
+**Where to take a question.** Read the file first — § 6 names one for every claim above, and it settles
+most of them:
+[github.com/NFTYoginis/your-side-of-the-table](https://github.com/NFTYoginis/your-side-of-the-table).
+
+If reading it doesn't settle it, **open an issue on the repo**:
+[github.com/NFTYoginis/your-side-of-the-table/issues](https://github.com/NFTYoginis/your-side-of-the-table/issues).
+That's the route for a factual question, a claim you can't trace, or a correction — and it works
+whether you're writing the feature page or you found this file by accident. Answers land in public,
+where the next person reading this can see them.
+
+What a useful correction looks like:
+[`CONTRIBUTING.md`](https://github.com/NFTYoginis/your-side-of-the-table/blob/main/CONTRIBUTING.md).

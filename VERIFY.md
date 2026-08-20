@@ -24,6 +24,7 @@ be unflattering, but because none of them would be verifiable by you.
 | 7b | …and every URL on it is this repo's own | `grep -oE 'https?://[^"'"'"' )]+' docs/index.html \| sort -u` | only `github.com/NFTYoginis/your-side-of-the-table` and `nftyoginis.github.io/your-side-of-the-table` URLs |
 | 8 | Your own positions are never invented | `python3 reference/checks/practice-state.py` | lists which files are blank and which jobs go framework-only |
 | 9 | Every domain claim carries a source link | `grep -c 'https://' reference/what-changed-2024.md reference/the-upl-line.md reference/compensation-landscape.md` | each file returns a non-zero count |
+| 10 | Every skill routes state questions to your own counsel *without* making the refusal conditional on the answer | `grep -l "It does not change what this file produces" skills/*.md \| wc -l` | prints `5` — one per skill |
 
 Run 2, 3, 4, 5 and 8 in one go:
 
@@ -78,6 +79,10 @@ to avoid:
 - **CHECK C reads declared inputs only** — the rows of each *Runs on* table. Prose that names the MLS
   in order to refuse it is not a dependency, and the check does not pretend otherwise. It would not
   catch a skill that smuggled a data assumption into its Method section.
+- **Claim 10 is a presence check, not a reading.** It proves the load-bearing sentence is in all five
+  stop sections — it cannot tell you the paragraph around it still says something compatible. It is
+  there because that sentence is the one a well-meaning edit would drop while "tightening" the
+  jurisdiction routing, which is the edit that would quietly turn a referral into a permission slip.
 - **No check verifies the legal content.** The UPL framing in
   [`reference/the-upl-line.md`](reference/the-upl-line.md) carries its sources so you can read them
   yourself. Your state's rules and your broker outrank all of it.

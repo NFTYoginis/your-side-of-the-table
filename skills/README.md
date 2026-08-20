@@ -41,6 +41,9 @@ Verify that shape holds:
 ## The rule that outranks every skill
 
 Rule 0, from [`../rules.md`](../rules.md): **every output is addressed to the agent, and nothing
-explains what a document means.** Each skill restates its own version in *Where this stops*. The
-reasoning, the case law, and twelve worked boundary calls are in
+explains what a document means.** Each skill restates its own version in *Where this stops*, and each
+one routes the parts that vary by state — what you may say about a form, whether attorney review is
+customary, what you must disclose — to your broker and an attorney in your state. That routing settles
+what *you* may say to a client; it never re-opens the rule. The reasoning, the case law, twelve worked
+boundary calls, and the state-routing section are in
 [`../reference/the-upl-line.md`](../reference/the-upl-line.md).

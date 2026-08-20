@@ -162,6 +162,14 @@ Earnest money disposition, contingency rights, and termination consequences are 
 interpretation with money attached. They are the clearest examples in this repo of what a licence does
 not cover. See [`../reference/the-upl-line.md`](../reference/the-upl-line.md).
 
+**Your state, and what it doesn't change.** Contingency rights, earnest-money disposition, and what
+you may say about either are state-specific *and* document-specific — that's the call to your broker,
+then an attorney in your state. That answer settles what you may say to your client.
+It does not change what this file produces: the thinking, never the paper. An attorney telling you
+the answer doesn't mean this file will write it down for you. See
+[`../reference/the-upl-line.md`](../reference/the-upl-line.md) § *Your state's answer, and what it
+doesn't change.*
+
 ## If you're missing something
 
 - **No real bid on a material item** → say so and stop short of a number. An ask built on an internet

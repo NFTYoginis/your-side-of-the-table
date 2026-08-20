@@ -183,6 +183,14 @@ Refusal language:
 
 Detail and sources: [`../reference/the-upl-line.md`](../reference/the-upl-line.md).
 
+**Your state, and what it doesn't change.** How much you may say about your own brokerage's agreement
+— and whether a client here would normally take it to a lawyer before signing — is state law and local
+practice. Your broker first, then a real-estate attorney in your state. That answer settles what you
+may say to the client. It does not change what this file produces: positions and the words for them,
+never form language and never a paraphrase of a provision. There is no legal opinion that unlocks the
+addendum. See [`../reference/the-upl-line.md`](../reference/the-upl-line.md) § *Your state's answer,
+and what it doesn't change.*
+
 ## If you're missing something
 
 - **Broker ceiling unknown** → produce the position, label it provisional, put the broker question at
