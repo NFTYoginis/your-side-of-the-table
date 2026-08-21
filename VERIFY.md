@@ -65,10 +65,13 @@ A check that cannot fail is decoration. Break the repo four ways in a copy and w
 
 → `FAIL skills/post-inspection-position.md:<line> — client salutation`, exit `1`.
 
-**c. Declare a listing-data input.** Edit any skill's *Runs on* table so a row's source column reads
-`MLS comps for the subject`, then re-run `boundary-checks.py`.
+**c. Declare a listing-data input.** Edit any skill's *Runs on* table so a row's **first cell — the
+input name itself** — reads `MLS comps for the subject`, then re-run `boundary-checks.py`. That is the
+column a listing-data dependency would actually be named in, and it is the one this test breaks.
 
-→ `FAIL — input '<name>' sourced from \bmls\b`, exit `1`.
+→ `FAIL <skill> — row 'MLS comps for the subject', cell 'MLS comps for the subject' matches \bmls\b`,
+plus a second line for `\bcomps?\b`, exit `1`. CHECK C reads every cell of the row, so the same text in
+the source or *Required?* column fails the same way.
 
 **d. Fill the practice folder.**
 

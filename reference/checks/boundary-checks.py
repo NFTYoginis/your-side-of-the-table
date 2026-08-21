@@ -156,14 +156,14 @@ def main():
             print(f"  FAIL  {name} — no 'Runs on' table")
             continue
         hits = [
-            (r[0], rx.pattern)
-            for r in rows for rx in FORBIDDEN_RE
-            if len(r) > 1 and rx.search(r[1])
+            (r[0] if r else "?", c, rx.pattern)
+            for r in rows for c in r for rx in FORBIDDEN_RE
+            if rx.search(c)
         ]
         if hits:
-            for inp, pat in hits:
-                fails.append(f"C: {name} input {inp!r} sourced from {pat}")
-                print(f"  FAIL  {name} — input {inp!r} sourced from {pat}")
+            for inp, cell, pat in hits:
+                fails.append(f"C: {name} row {inp!r} — cell {cell!r} matches {pat}")
+                print(f"  FAIL  {name} — row {inp!r}, cell {cell!r} matches {pat}")
         else:
             print(f"  ok    {name} ({len(rows)} declared inputs, none from listing data)")
 

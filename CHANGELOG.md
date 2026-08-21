@@ -7,6 +7,28 @@ source refreshes.
 
 ---
 
+## [1.1.2] — 2026-08-21
+
+### Fixed
+
+- **CHECK C read one cell per *Runs on* row, not the row.**
+  [`reference/checks/boundary-checks.py`](reference/checks/boundary-checks.py) searched only the
+  *Where it comes from* column, so a row whose **input name** was `MLS comps for the subject property`
+  passed green — the most literal place a listing-data input could be declared was the one place the
+  check could not see. It now searches every cell of every row, and the failure message names the
+  offending cell text instead of asserting the hit came from the source column, which it could not
+  know. [`VERIFY.md`](VERIFY.md) § *What the checks do not prove* already described CHECK C as reading
+  *the rows* of each table; that was true of the intent and not of the code, and is now true of both.
+- **Claim 5 does not move.** *"No skill declares a listing-data input"* is the same sentence before and
+  after this fix, and it always meant what it says. The code under-enforced it; the claim was not
+  narrower than the check. No skill's *Runs on* table changed — every one of them passes the
+  strengthened check exactly as written, which is what makes this a fix to the check and nothing else.
+- **[`VERIFY.md`](VERIFY.md) negative test (c)** told you to break a row's *source* column — the only
+  column that already worked. So the procedure for proving CHECK C can fail exercised the half of it
+  that wasn't broken. It now breaks the input-name column, which is the case that used to pass.
+
+---
+
 ## [1.1.1] — 2026-08-20
 
 ### Changed
